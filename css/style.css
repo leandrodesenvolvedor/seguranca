@@ -1,0 +1,123 @@
+/******************************
+Formatações Gerais
+*******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #020024;
+    color: white;
+}
+
+/******************************
+Cabeçalho do site
+*******************************/
+header {
+    width: 100%;
+    padding: 30px 5%;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 37%, rgba(2, 178, 232, 1) 100%, rgba(0, 212, 255, 1) 53%); 
+    font-weight: 700;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+/******************************
+Links de Navegação
+*******************************/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #020024;
+    transition: 0.2s color ease;
+}
+/******************************
+Layout
+*******************************/
+main {
+    width: 1200px;
+    margin:20px auto;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    box-shadow: 0 0 8px green;
+}
+/******************************
+Sessões
+*******************************/
+
+/******************************
+Classes
+*******************************/
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-security {
+   text-align: justify;
+}
+/******************************
+Tipografia
+*******************************/
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+h2 {
+    font-size: 2.3rem;
+    color: green;
+    text-shadow: 0 0 3px green;
+    letter-spacing: 0.9px;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgba(0, 107, 128, 0.559);
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+/******************************
+Rodapé
+*******************************/
+footer {
+    width: 100%;
+    padding: 30px 5%;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 37%, rgba(2, 178, 232, 1) 100%, rgba(0, 212, 255, 1) 53%); 
+    font-weight: 700;
+    text-align: center;
+}
+/******************************
+Responsividade
+*******************************/
